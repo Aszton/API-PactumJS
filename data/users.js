@@ -1,4 +1,4 @@
 export const asztonUser = {
   userName: "Aszton",
-  password: process.env.PASSWORD
+  password: process.env.ASZTON_PASSWORD,
 };
