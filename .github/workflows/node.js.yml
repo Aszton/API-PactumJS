@@ -1,6 +1,6 @@
 name: Node.js CI
 env:
-  PASSWORD: ${{ secrets.ASZTON_PASSWORD }}
+  ASZTON_PASSWORD: ${{ secrets.ASZTON_PASSWORD }}
 
 on:
   push:
